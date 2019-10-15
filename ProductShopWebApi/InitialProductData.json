@@ -1,0 +1,48 @@
+
+  [
+    {
+      "Name": "cookies",
+      "Price": 120.55
+    },
+    {
+      "Name": "chocolate",
+      "Price": 45.45
+    },
+    {
+      "Name": "bread",
+      "Price": 20.21
+    },
+    {
+      "Name": "milk",
+      "Price": 33
+    },
+    {
+      "Name": "cheese",
+      "Price": 146.80
+    },
+    {
+      "Name": "ice cream",
+      "Price": 58
+    },
+    {
+      "Name": "ketchup",
+      "Price": 59.9
+    },
+    {
+      "Name": "butter",
+      "Price": 56
+    },
+    {
+      "Name": "water",
+      "Price": 39.90
+    },
+    {
+      "Name": "apple",
+      "Price": 60
+    },
+    {
+      "Name": "orange",
+      "Price": 79.80
+    }
+  ]
+
