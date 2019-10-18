@@ -106,9 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ProductShopService.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OrderRequest.cs" />
+    <Compile Include="OrderResponse.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductShopService.svc.cs">
       <DependentUpon>ProductShopService.svc</DependentUpon>
@@ -120,7 +125,16 @@
     <Content Include="InitialProductData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="app.manifest" />
     <None Include="packages.config" />
+    <Content Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ProductShopWebApi.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -131,6 +145,13 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
